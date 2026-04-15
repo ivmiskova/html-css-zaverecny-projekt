@@ -38,7 +38,7 @@
 
 
   <!-- sekce JÍDELNÍ LÍSTEK -->
-  </section clas="listek">
+  <section class="listek">
   <div class="container">
   <h2>Jídelní lístek</h2>
   <div class="karticky">
@@ -78,10 +78,17 @@
 
 
   <!-- sekce ROZVOZ -->
-   </section>
+   <section class="rozvoz">
    <div class="container">
-  <img src="images/rozvoz-na-sirku.jpg" alt="Rozvoz jídla domů">
+    <div class="rozvoz1">
 
+  <picture>
+    <source media="(min-width:768px)" srcset="images/rozvoz-na-vysku.jpg">
+  <img class="rozvoz-foto" src="images/rozvoz-na-sirku.jpg" alt="Rozvoz jídla domů">
+  </picture>
+  </div>
+
+  <div class="rozvoz2">
   <h2>Nejrychlejší rozvoz jídla ve městě</h2>
 
   <ul>
@@ -102,6 +109,7 @@
   <p>Máte hlad a nechce se vám vařit? My to chápeme! Objednejte si u nás a my vám jídlo doručíme co nejrychleji až ke dveřím - teplé, voňavé a připravené s láskou. </p>
 
   <a class="tlacitko" href="#">Objednat jídlo</a>
+  </div>
   </div>
   </section>
 
